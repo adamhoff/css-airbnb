@@ -1,3 +1,25 @@
-h1 {
-  color: salmon;
+body{
+  font-style: sans-serif;
+  background: #EEEEEE;
+  text-align: center;
+}
+section{
+  width: auto;
+}
+img{
+  margin: 0 10px;
+  width: 17%;
+  height: 15em;
+}
+h1{
+  margin-bottom: 0;
+}
+p{
+  margin-bottom: 3em;
+}
+.buttons{
+  margin: 1.5em 35em;
+  padding: 0.9em;
+  border: 1px solid #DDDDDD;
+  background: white;
 }
