@@ -6,13 +6,22 @@ body{
 section{
   width: auto;
 }
-img{
+div{
+  display: inline-block;
+  width: auto;
+}
+#San-fran, #New-york, #London, #Napa, #Sonoma, #San-fran-2{
   margin: 0 10px;
   width: 17%;
   height: 15em;
+  vertical-align: middle;
 }
 h1{
   margin-bottom: 0;
+}
+h2{
+  line-height: 7.5em;
+  color: white;
 }
 p{
   margin-bottom: 3em;
@@ -22,4 +31,22 @@ p{
   padding: 0.9em;
   border: 1px solid #DDDDDD;
   background: white;
+}
+#San-fran{
+  background-image: url('../img/san-francisco.jpg');
+}
+#New-york{
+  background-image: url('../img/new-york.jpg');
+}
+#London{
+  background-image: url('../img/london.jpg');
+}
+#Napa{
+  background-image: url('../img/napa.jpg');
+}
+#Sonoma{
+  background-image: url('../img/sonoma.jpg');
+}
+#San-fran-2{
+  background-image: url('../img/san-francisco-2.jpg');
 }
